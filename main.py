@@ -1,3 +1,25 @@
+#create the vehicle class
+    #initialize self, make, miles and price
+    #create function for starting engine
+    #create function to make noise
+#create an inherited class called Truck that inherits Vehicle
+    #initialize and create function to load cargo
+#create an inherited class called Motorcycle that inherits Vehicle
+    #create a make noise function
+#create a function to display the vehicle list and to list it 1,2,3...
+#create another funtion names main to put all the main code inside
+    #print hello statement
+    #print lists with information for motorcycles and trucks
+    #create an empty list
+    #create a loop for user input for b or t
+        #if statement for each choice
+    #statement to compare vehicles
+        #if statement based on if they choose yes or no
+        #print statement and als print the noise the vehicle makes
+#call main to run program
+
+
+
 class Vehicle:
     def __init__(self, make, miles, price):
         self.make=make
